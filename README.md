@@ -49,6 +49,7 @@ If you are unsure if this course is for you, [here is an article presenting a hi
 8. [Usage](#usage)
 9. [Installation & Usage for Development](#installation)
 10. [Licensing & Contributing](#licensing)
+11. [Support](#support)
 
 --------
 
@@ -91,8 +92,6 @@ Here is an [article presenting a high-level overview](https://pub.towardsai.net/
 7. [Deploy All the ML Components to GCP. Build a CI/CD Pipeline Using Github Actions.](https://towardsdatascience.com/seamless-ci-cd-pipelines-with-github-actions-on-gcp-your-tools-for-effective-mlops-96f676f72012)
 8. [\[Bonus\] Behind the Scenes of an ‘Imperfect’ ML Project — Lessons and Insights.](https://towardsdatascience.com/imperfections-unveiled-the-intriguing-reality-behind-our-mlops-course-creation-6ff7d52ecb7e)
 
----------
-
 # 💵 3. Costs <a name=costs></a>
 
 The code from GitHub is released under the MIT license. Thus, as long as you redistribute our LICENSE and give credit to our work, you can use it as you wish.
@@ -108,6 +107,8 @@ To conclude, the course will cost you ~25$-30$ to read and run end-to-end.
 If you have any questions or issues during the course, please create an [issue](https://github.com/iusztinpaul/energy-forecasting/issues).  I will do my best to respond.
 
 Also, you can contact me directly on [LinkedIn](https://www.linkedin.com/in/pauliusztin/).
+
+-------
 
 # 📊 5. Data <a name=data></a>
 We used an open API that provides hourly energy consumption values for all the energy consumer types within Denmark.
@@ -638,6 +639,8 @@ I post almost daily AI content on 👇🏼
 Subscribe to my [ML engineering weekly newsletter](https://pauliusztin.substack.com/).
 
 -----
+
+# 🖤 11. Support <a name=support></a>
 
 🎨 **Creating content takes me a lot of time. If you enjoyed my work, you could support me by [buying me a coffee](https://www.buymeacoffee.com/pauliusztin).**
 
