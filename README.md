@@ -41,12 +41,14 @@ If you are unsure if this course is for you, [here is an article presenting a hi
 # Table of Contents
 1. [What You Will Learn](#learn)
 2. [Lessons & Tutorials](#lessons)
-3. [Data](#data)
-4. [Code Structure](#structure)
-5. [Set Up Additional Tools](#tools)
-6. [Usage](#usage)
-7. [Installation & Usage for Development](#installation)
-8. [Licensing & Contributing](#licensing)
+3. [Costs](#costs)
+4. [Ask Questions](#ask-questions)
+5. [Data](#data)
+6. [Code Structure](#structure)
+7. [Set Up Additional Tools](#tools)
+8. [Usage](#usage)
+9. [Installation & Usage for Development](#installation)
+10. [Licensing & Contributing](#licensing)
 
 --------
 
@@ -91,6 +93,21 @@ Here is an [article presenting a high-level overview](https://pub.towardsai.net/
 
 ---------
 
+# 💵 3. Costs <a name=costs></a>
+
+The code from GitHub is released under the MIT license. Thus, as long as you redistribute our LICENSE and give credit to our work, you can use it as you wish.
+
+The Medium lessons are released under Medium's paid wall. If you already have it, then they are free. Otherwise, you must pay a $5 monthly fee to read the articles.
+
+On the tools side, I will dig deeper when covering each tool independently, but TL/DR, it will cost you around ~20$ to deploy everything to GCP. 
+
+To conclude, the course will cost you ~25$-30$ to read and run end-to-end. 
+
+# ❔ 4. Ask Questions <a name=ask-questions></a>
+
+If you have any questions or issues during the course, please create an [issue](https://github.com/iusztinpaul/energy-forecasting/issues).  I will do my best to respond.
+
+Also, you can contact me directly on [LinkedIn](https://www.linkedin.com/in/pauliusztin/).
 
 # 📊 3. Data <a name=data></a>
 We used an open API that provides hourly energy consumption values for all the energy consumer types within Denmark.
@@ -173,10 +190,6 @@ We use a `.env` file to store all our credentials. Every module that needs a `.e
 cp .env.default .env
 ```
 ... and complete what is surrounded by `<...>`. For now, don't do anything. We will explain in detail in later steps what you have to do. 
-
-If you have problems during the setup, please leave us an issue, and we will respond to you and update the README for future readers.
-
-Also, if you have any questions, you can contact me directly on [LinkedIn](https://www.linkedin.com/in/pauliusztin/).
 
 ## Poetry
 ##### ``<< free usage >>``
@@ -338,10 +351,6 @@ See [this document](/README_DEPLOY.md) for detailed instructions.
 **The code is fully tested on Ubuntu 20.04 & 22.04 using Python 3.9 and Poetry 1.4.2.**
 
 **Note:** If you are working on macOS M1/M2, be sure to check the [macOS M1/M2 Poetry Issues](https://github.com/iusztinpaul/energy-forecasting/tree/main#macos-m1m2-poetry-issues) section.
-
-If you have problems during the usage instructions, please leave us an issue, and we will respond to you and update the README for future readers.
-
-Also, if you have any questions, you can contact me directly on [LinkedIn](https://www.linkedin.com/in/pauliusztin/).
 
 ## The Pipeline
 
