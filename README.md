@@ -639,7 +639,7 @@ Subscribe to my [ML engineering weekly newsletter](https://pauliusztin.substack.
 
 -----
 
-`🎨 Creating content takes me a lot of time. If you enjoyed my work, you could support me by [**buying me a coffee.**](https://www.buymeacoffee.com/pauliusztin).`
+🎨 **Creating content takes me a lot of time. If you enjoyed my work, you could support me by [buying me a coffee](https://www.buymeacoffee.com/pauliusztin).**
 
 <br/>Thank you ✌🏼 !<br/>
 
