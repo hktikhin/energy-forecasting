@@ -109,7 +109,7 @@ If you have any questions or issues during the course, please create an [issue](
 
 Also, you can contact me directly on [LinkedIn](https://www.linkedin.com/in/pauliusztin/).
 
-# 📊 3. Data <a name=data></a>
+# 📊 5. Data <a name=data></a>
 We used an open API that provides hourly energy consumption values for all the energy consumer types within Denmark.
 
 They provide an intuitive interface where you can easily query and visualize the data. You can access the data [here](https://www.energidataservice.dk/tso-electricity/ConsumptionDE35Hour).
@@ -145,7 +145,7 @@ Thus, we will build a model that independently forecasts the energy consumption 
 
 ----------
 
-# 🧬 4. Code Structure <a name=structure></a>
+# 🧬 6. Code Structure <a name=structure></a>
 
 The code is split into two main components: the `pipeline` and the `web app`.
 
@@ -181,7 +181,7 @@ To follow the structure in its natural flow, read the folders in the following o
 
 -------
 
-# 🔧 5. Set Up Additional Tools <a name=tools></a>
+# 🔧 7. Set Up Additional Tools <a name=tools></a>
 
 **The code is tested only on Ubuntu 20.04 and 22.04 using Python 3.9.**
 
@@ -346,7 +346,7 @@ See [this document](/README_DEPLOY.md) for detailed instructions.
 
 -------
 
-# 🔎 6. Usage <a name=usage></a>
+# 🔎 8. Usage <a name=usage></a>
 
 **The code is fully tested on Ubuntu 20.04 & 22.04 using Python 3.9 and Poetry 1.4.2.**
 
@@ -541,7 +541,7 @@ docker compose -f deploy/app-docker-compose.yml -f deploy/app-docker-compose.loc
 ------
 
 
-# 🧑‍💻 7. Installation & Usage for Development <a name=installation></a>
+# 🧑‍💻 9. Installation & Usage for Development <a name=installation></a>
 
 All the modules support Poetry. Thus the installation is straightforward.
 
@@ -609,7 +609,7 @@ docker compose -f deploy/app-docker-compose.yml -f deploy/app-docker-compose.loc
 
 ------
 
-# 🏆 8. Licensing & Contributing <a name=licensing></a>
+# 🏆 10. Licensing & Contributing <a name=licensing></a>
 
 The code is under the MIT License. Thus, as long as you keep distributing the License, feel free to share, clone, or change the code as you like.
 
