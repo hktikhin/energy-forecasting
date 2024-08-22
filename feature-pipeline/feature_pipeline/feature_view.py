@@ -63,7 +63,7 @@ def create(
     # NOTE: Normally you would not want to delete feature views. We do it here just to stay in the free tier.
     try:
         feature_views = fs.get_feature_views(name="energy_consumption_denmark_view")
-    except hsfs.client.exceptions.RestAPIError:
+    except Exception as e:
         logger.info("No feature views found for energy_consumption_denmark_view.")
 
         feature_views = []
@@ -71,14 +71,14 @@ def create(
     for feature_view in feature_views:
         try:
             feature_view.delete_all_training_datasets()
-        except hsfs.client.exceptions.RestAPIError:
+        except Exception as e:
             logger.error(
                 f"Failed to delete training datasets for feature view {feature_view.name} with version {feature_view.version}."
             )
 
         try:
             feature_view.delete()
-        except hsfs.client.exceptions.RestAPIError:
+        except Exception as e:
             logger.error(
                 f"Failed to delete feature view {feature_view.name} with version {feature_view.version}."
             )
